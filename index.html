@@ -7,32 +7,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="description"
-        content="A responsive static portfolio webpage created for Week 11 internship task.">
+        content="Responsive web design project">
 
-    <title>Frontend Developer Portfolio</title>
+    <title>Responsive Web Design</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- HEADER  -->
+    <!--  HEADER  -->
 
-    <header class="site-header">
+    <header class="header">
 
-        <div class="container nav-wrapper">
+        <div class="container nav-container">
 
             <a href="#" class="logo">
-                Sudhanshu<span>Portfolio</span>
+                Web<span>Craft</span>
             </a>
 
-            <nav class="navigation" aria-label="Main navigation">
+            <nav class="nav">
 
                 <a href="#home">Home</a>
 
                 <a href="#about">About</a>
 
-                <a href="#skills">Skills</a>
+                <a href="#services">Services</a>
 
                 <a href="#projects">Projects</a>
 
@@ -40,8 +40,8 @@
 
             </nav>
 
-            <a class="nav-button" href="#contact">
-                Let's Talk
+            <a href="#contact" class="header-btn">
+                Get Started
             </a>
 
         </div>
@@ -49,11 +49,11 @@
     </header>
 
 
-    <!-- ================= MAIN ================= -->
+    <!-- MAIN -->
 
     <main>
 
-        <!-- ================= HERO SECTION ================= -->
+        <!--  HERO SECTION  -->
 
         <section id="home" class="hero">
 
@@ -62,27 +62,29 @@
                 <div class="hero-content">
 
                     <p class="eyebrow">
-                        FRONTEND DEVELOPER
+                        RESPONSIVE WEB DESIGN
                     </p>
 
                     <h1>
-                        Building clean and responsive
-                        web experiences.
+                        Websites that look great
+                        on every screen.
                     </h1>
 
-                    <p class="hero-text">
-                        I create modern websites using HTML, CSS and
-                        JavaScript, with a strong focus on responsive
-                        layouts, usability and clean code.
+                    <p class="hero-description">
+                        I build clean, modern and responsive
+                        interfaces that adapt smoothly to
+                        desktops, tablets and smartphones.
                     </p>
 
-                    <div class="hero-actions">
+                    <div class="hero-buttons">
 
-                        <a class="primary-button" href="#projects">
-                            View Projects
+                        <a href="#projects"
+                           class="btn primary-btn">
+                            Explore Projects
                         </a>
 
-                        <a class="secondary-button" href="#contact">
+                        <a href="#contact"
+                           class="btn outline-btn">
                             Contact Me
                         </a>
 
@@ -91,38 +93,37 @@
                 </div>
 
 
-                <!-- Developer Card -->
+                <!-- Browser illustration -->
 
-                <div class="hero-card">
+                <div class="hero-visual">
 
-                    <div class="avatar">
-                        FD
-                    </div>
+                    <div class="browser-window">
 
-                    <h2>
-                        Frontend Developer
-                    </h2>
+                        <div class="browser-top">
 
-                    <p>
-                        HTML • CSS • JavaScript
-                    </p>
+                            <span></span>
+                            <span></span>
+                            <span></span>
 
-
-                    <div class="mini-stats">
-
-                        <div>
-                            <strong>10+</strong>
-                            <span>Projects</span>
                         </div>
 
-                        <div>
-                            <strong>3+</strong>
-                            <span>Technologies</span>
-                        </div>
+                        <div class="browser-content">
 
-                        <div>
-                            <strong>100%</strong>
-                            <span>Responsive</span>
+                            <div class="visual-line large"></div>
+
+                            <div class="visual-line"></div>
+
+                            <div class="visual-line short"></div>
+
+
+                            <div class="visual-cards">
+
+                                <div></div>
+                                <div></div>
+                                <div></div>
+
+                            </div>
+
                         </div>
 
                     </div>
@@ -134,40 +135,37 @@
         </section>
 
 
-        <!-- ================= ABOUT SECTION ================= -->
+        <!-- ABOUT SECTION  -->
 
         <section id="about" class="section">
 
-            <div class="container two-column">
+            <div class="container about-grid">
 
                 <div>
 
                     <p class="section-label">
-                        ABOUT ME
+                        ABOUT THE PROJECT
                     </p>
 
                     <h2>
-                        Turning ideas into usable interfaces.
+                        Built with responsive-first thinking.
                     </h2>
 
                 </div>
 
 
-                <div>
+                <div class="about-text">
 
                     <p>
-                        I enjoy converting design concepts into
-                        structured, accessible and responsive webpages.
-                        My approach is to first understand the layout,
-                        divide it into meaningful sections, and then
-                        build each section with semantic HTML and
-                        organized CSS.
+                        This project demonstrates how a webpage
+                        can adapt its layout and content to
+                        different viewport sizes.
                     </p>
 
                     <p>
-                        This project demonstrates a static webpage
-                        workflow without a backend or database, making
-                        it easy to understand, test and deploy.
+                        The structure uses semantic HTML and
+                        the styling uses CSS Grid, Flexbox,
+                        relative units and media queries.
                     </p>
 
                 </div>
@@ -177,66 +175,92 @@
         </section>
 
 
-        <!-- ================= SKILLS SECTION ================= -->
+        <!-- SERVICES SECTION  -->
 
-        <section id="skills" class="section section-muted">
+        <section id="services"
+                 class="section light-section">
 
             <div class="container">
 
-                <p class="section-label">
-                    MY SKILLS
-                </p>
+                <div class="section-heading">
 
-                <h2>
-                    Technologies I work with
-                </h2>
+                    <p class="section-label">
+                        WHAT I DO
+                    </p>
+
+                    <h2>
+                        Responsive development essentials
+                    </h2>
+
+                    <p>
+                        The following areas demonstrate the
+                        main techniques used in this project.
+                    </p>
+
+                </div>
 
 
-                <div class="skill-grid">
+                <div class="service-grid">
 
-                    <!-- HTML -->
 
-                    <article class="skill-card">
+                    <!-- Service 1 -->
+
+                    <article class="service-card">
+
+                        <div class="icon">
+                            01
+                        </div>
 
                         <h3>
-                            HTML5
+                            Flexible Layouts
                         </h3>
 
                         <p>
-                            Semantic page structure, accessibility-friendly
-                            markup and clean document hierarchy.
+                            CSS Grid and Flexbox create layouts
+                            that automatically adjust to
+                            available space.
                         </p>
 
                     </article>
 
 
-                    <!-- CSS -->
+                    <!-- Service 2 -->
 
-                    <article class="skill-card">
+                    <article class="service-card">
+
+                        <div class="icon">
+                            02
+                        </div>
 
                         <h3>
-                            CSS3
+                            Media Queries
                         </h3>
 
                         <p>
-                            Responsive layouts, Flexbox, Grid, spacing,
-                            typography and reusable styles.
+                            Breakpoints change columns, spacing,
+                            navigation and typography for
+                            smaller screens.
                         </p>
 
                     </article>
 
 
-                    <!-- JavaScript -->
+                    <!-- Service 3 -->
 
-                    <article class="skill-card">
+                    <article class="service-card">
+
+                        <div class="icon">
+                            03
+                        </div>
 
                         <h3>
-                            JavaScript
+                            Fluid Elements
                         </h3>
 
                         <p>
-                            Core programming concepts and interactive
-                            frontend functionality.
+                            Relative units and max-width
+                            containers help content scale
+                            without unnecessary overflow.
                         </p>
 
                     </article>
@@ -248,105 +272,98 @@
         </section>
 
 
-        <!-- ================= PROJECTS SECTION ================= -->
+        <!-- PROJECTS SECTION -->
 
-        <section id="projects" class="section">
+        <section id="projects"
+                 class="section">
 
             <div class="container">
 
-                <p class="section-label">
-                    PROJECTS
-                </p>
+                <div class="section-heading">
 
-                <h2>
-                    Selected work
-                </h2>
+                    <p class="section-label">
+                        PROJECTS
+                    </p>
+
+                    <h2>
+                        Responsive layouts
+                    </h2>
+
+                </div>
 
 
                 <div class="project-grid">
 
 
-                    <!-- PROJECT 1 -->
+                    <!-- Desktop -->
 
                     <article class="project-card">
 
-                        <div class="project-image project-one">
-                            01
+                        <div class="project-image image-one">
+                            Desktop
                         </div>
 
-                        <div class="project-content">
+                        <div class="project-body">
 
                             <h3>
-                                To-Do Task Manager
+                                Desktop Layout
                             </h3>
 
                             <p>
-                                A responsive task management interface
-                                with create, edit, delete and completion
-                                features.
+                                Multi-column layout with
+                                generous spacing for large
+                                screens.
                             </p>
-
-                            <span class="tag">
-                                HTML / CSS / JS
-                            </span>
 
                         </div>
 
                     </article>
 
 
-                    <!-- PROJECT 2 -->
+                    <!-- Tablet -->
 
                     <article class="project-card">
 
-                        <div class="project-image project-two">
-                            02
+                        <div class="project-image image-two">
+                            Tablet
                         </div>
 
-                        <div class="project-content">
+                        <div class="project-body">
 
                             <h3>
-                                Blog Landing Page
+                                Tablet Layout
                             </h3>
 
                             <p>
-                                A clean blog-style layout focused on
-                                readable content, cards and responsive
-                                navigation.
+                                Content adjusts to a medium
+                                viewport while maintaining
+                                a clear visual hierarchy.
                             </p>
-
-                            <span class="tag">
-                                HTML / CSS
-                            </span>
 
                         </div>
 
                     </article>
 
 
-                    <!-- PROJECT 3 -->
+                    <!-- Mobile -->
 
                     <article class="project-card">
 
-                        <div class="project-image project-three">
-                            03
+                        <div class="project-image image-three">
+                            Mobile
                         </div>
 
-                        <div class="project-content">
+                        <div class="project-body">
 
                             <h3>
-                                Product Showcase
+                                Mobile Layout
                             </h3>
 
                             <p>
-                                A modern product presentation page with
-                                clear hierarchy and mobile-friendly
-                                sections.
+                                Sections stack vertically
+                                to improve readability on
+                                narrow screens.
                             </p>
-
-                            <span class="tag">
-                                HTML / CSS
-                            </span>
 
                         </div>
 
@@ -359,11 +376,12 @@
         </section>
 
 
-        <!-- ================= CONTACT SECTION ================= -->
+        <!-- CONTACT SECTION  -->
 
-        <section id="contact" class="section contact-section">
+        <section id="contact"
+                 class="contact-section">
 
-            <div class="container contact-box">
+            <div class="container contact-content">
 
                 <div>
 
@@ -372,22 +390,20 @@
                     </p>
 
                     <h2>
-                        Have a project in mind?
+                        Ready to build a responsive website?
                     </h2>
 
                     <p>
-                        Let's discuss your next web project and turn
-                        the idea into a clean interface.
+                        Let's create a clean interface that
+                        works across every device.
                     </p>
 
                 </div>
 
 
-                <a class="primary-button"
-                    href="mailto:pandeysudhanshu812@gmail.com">
-
+                <a href="mailto:pandeysudhanshu812@gmail.com"
+                   class="btn primary-btn">
                     Email Me
-
                 </a>
 
             </div>
@@ -397,14 +413,15 @@
     </main>
 
 
-    <!-- FOOTER -->
+    <!--  FOOTER  -->
 
-    <footer class="site-footer">
+    <footer class="footer">
 
-        <div class="container footer-wrapper">
+        <div class="container footer-content">
 
             <p>
-                © 2026 DevPortfolio. Built with HTML & CSS.
+                © 2026 WebCraft.
+                Responsive Web Design Project.
             </p>
 
             <a href="#home">
@@ -414,7 +431,6 @@
         </div>
 
     </footer>
-
 
 </body>
 
